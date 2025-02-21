@@ -14,7 +14,7 @@ export default function Home() {
         throw new Error("Invalid JSON format");
       }
 
-      const res = await fetch("https://22-bcs-14462-aryan-bajaj-finserv-backend.vercel.app/", {
+      const res = await fetch("https://vaibhav-bajaj-finserv-backend.vercel.app/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(parsedInput),
@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>22BCS14462</title>
+        <title>22BCS17282</title>
       </Head>
       <div className="container mx-auto p-4 text-center">
         <h1 className="text-xl font-bold mb-4">Bajaj Finserv Health Dev Challenge</h1>
